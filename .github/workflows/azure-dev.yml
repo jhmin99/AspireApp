@@ -45,11 +45,6 @@ jobs:
           $appsettings.OpenAI.ApiKey = "${{ secrets.AZURE_OPENAI_API_KEY }}"
           $appsettings.OpenAI.DeploymentName = "${{ secrets.AZURE_OPENAI_DEPLOYMENT_NAME }}"
           $appsettings | ConvertTo-Json -Depth 100 | Out-File -FilePath ./Aspire/AspireYouTubeSummariser.AppHost/appsettings.json -Encoding utf8 -Force
-      - name: Print environment variables
-        run: |
-          echo "Endpoint: ${{ secrets.AZURE_OPENAI_ENDPOINT }}"
-          echo "ApiKey: ${{ secrets.AZURE_OPENAI_API_KEY }}"
-          echo "DeploymentName: ${{ secrets.AZURE_OPENAI_DEPLOYMENT_NAME }}"
 
       - name: Install azd
         uses: Azure/setup-azd@v1.0.0
