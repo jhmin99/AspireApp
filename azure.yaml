@@ -6,3 +6,11 @@ services:
     language: dotnet
     project: ./Aspire/AspireYouTubeSummariser.AppHost/AspireYouTubeSummariser.AppHost.csproj
     host: containerapp
+  apiapp:
+    language: dotnet
+    project: ./backend/AspireYouTubeSummariser.ApiApp/AspireYouTubeSummariser.ApiApp.csproj
+    host: containerapp
+    configuration:
+      ingress:
+        external: true
+        targetPort: 80
