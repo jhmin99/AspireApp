@@ -1,0 +1,2 @@
+# Ignore all appsettings.Development.json files in the repository
+**/appsettings.Development.json

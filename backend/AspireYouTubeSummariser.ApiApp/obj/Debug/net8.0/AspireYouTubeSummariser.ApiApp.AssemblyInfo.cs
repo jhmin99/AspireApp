@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("AspireYouTubeSummariser.WebApp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("AspireYouTubeSummariser.ApiApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bf1f39f3c165f6d790a0f6d23ac6271b77f206f")]
-[assembly: System.Reflection.AssemblyProductAttribute("AspireYouTubeSummariser.WebApp")]
-[assembly: System.Reflection.AssemblyTitleAttribute("AspireYouTubeSummariser.WebApp")]
+[assembly: System.Reflection.AssemblyProductAttribute("AspireYouTubeSummariser.ApiApp")]
+[assembly: System.Reflection.AssemblyTitleAttribute("AspireYouTubeSummariser.ApiApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.
